@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     private Rigidbody2D playerRb;
     public float speed;
+    public Text scoreTxt;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +20,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        scoreTxt.text = score.ToString();
         if(Input.GetMouseButtonDown(0))
         {
             Flip();
@@ -51,6 +55,14 @@ public class Player : MonoBehaviour
 
     void GameOver()
     {
-        print("Morreu");
+        PlayerPrefs.SetInt("score", score);
+
+        if(score > PlayerPrefs.GetInt("record"))
+        {
+            PlayerPrefs.SetInt("record", score);
+        }
+        SceneManager.LoadScene("GameOver");
+        //print("Morreu");
+       
     }
 }

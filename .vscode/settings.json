@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "cegi-projeto-final - Copia.sln"
+    "dotnet.defaultSolution": "cegi-projeto-final.sln"
 }

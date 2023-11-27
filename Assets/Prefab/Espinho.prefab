@@ -100,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0020259693, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.48, y: 0.48}
+  m_Size: {x: 0.4462341, y: 0.48}
   m_EdgeRadius: 0
 --- !u!50 &5513881843561009304
 Rigidbody2D:
@@ -146,7 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9863b0892ece41949b4c74fd72fdcfff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoEspera: 2
+  tempoEspera: 3
   atritoMin: 1
   atritoMax: 7
   espinhoPrefab: {fileID: 8955536423837442807}
+  explosaoPrefab: {fileID: 8622813493936247284, guid: 5219d43fa1d8bab4c8f71e7923e9db04, type: 3}
+  pontos: 1
