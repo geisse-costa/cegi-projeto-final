@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9863b0892ece41949b4c74fd72fdcfff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoEspera: 3
+  tempoEspera: 5
   atritoMin: 1
   atritoMax: 7
   espinhoPrefab: {fileID: 8955536423837442807}
