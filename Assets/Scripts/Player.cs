@@ -61,8 +61,8 @@ public class Player : MonoBehaviour
         {
             PlayerPrefs.SetInt("record", score);
         }
-        SceneManager.LoadScene("GameOver");
-        //print("Morreu");
+        //SceneManager.LoadScene("GameOver");
+        print("Morreu");
        
     }
 }
