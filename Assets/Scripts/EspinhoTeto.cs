@@ -36,8 +36,8 @@ public class EspinhoTeto : MonoBehaviour
 
     void OnCollisionEnter2D()
     {
-        GameObject tempEspinho = Instantiate(espinhoPrefab, posicaoInicial, transform.rotation) as GameObject;
-        tempEspinho.GetComponent<Rigidbody2D>().isKinematic = true;
+        GameObject tempoEspinho = Instantiate(espinhoPrefab, posicaoInicial, transform.rotation) as GameObject;
+        tempoEspinho.GetComponent<Rigidbody2D>().isKinematic = true;
         
         GameObject explosao = Instantiate(explosaoPrefab, transform.position, transform.rotation) as GameObject;
         Destroy(explosao, 0.3f);
