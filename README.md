@@ -1,5 +1,5 @@
 <h1 align="center">Game of Thrones: John Snow Survival</h1>
-<p align="center">Projeto de <strong>Conclusão do Curso de Programação de Jogos em Unity,baseado em Game of Thrones</strong> e desenvolvido durante a o curso promovido pelo <a href="https://cegi.unifesp.br/">CEGI</a> na UNIFESP.
+<p align="center">Projeto de <strong>Conclusão do Curso de Programação de Jogos em Unity,</strong> baseado em Game of Thrones e desenvolvido durante a o curso promovido pelo <a href="https://cegi.unifesp.br/">CEGI</a> na UNIFESP.
 </p>
 
 ---
@@ -18,6 +18,6 @@ Para sobreviver, Jon Snow deve desviar de blocos de gelo que caem do teto, que e
 Desafie seus amigos e prove que você é o verdadeiro campeão do Norte!
 
 
-## 📃 Licença:
+## 📃 Licença e Créditos:
 
-Você é livre para usar, copiar, modificar e distribuir este jogo,
+Toda a interface, cenários, personagem e animações foram desenvolvidos por mim e devem ser creditados. Se você utilizar ou modificar este projeto, por favor, mantenha os créditos visíveis!
